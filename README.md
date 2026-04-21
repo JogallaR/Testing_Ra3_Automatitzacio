@@ -17,4 +17,4 @@ mvn clean test
 ## Objectiu
 Completar les classes de test i automatitzar-ne l'execució.
 
-awa
+awaa
