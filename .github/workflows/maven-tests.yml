@@ -17,7 +17,11 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-          cache: maven
+
+      - name: Verifica versions
+        run: |
+          java -version
+          mvn -v
 
       - name: Compila i executa proves
-        run: mvn -B test
+        run: mvn clean test
